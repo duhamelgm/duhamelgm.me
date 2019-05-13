@@ -1,0 +1,52 @@
+{
+  "list": [
+    {
+      "name": "WhatsApp",
+      "icon": "fab fa-whatsapp",
+      "content": "+58 412 6844 932",
+      "url": "https://wa.me/584126844932",
+      "colorBase": "#25d366",
+      "colorLight": "#3FED80"
+    },
+    {
+      "name": "Twitter",
+      "icon": "fab fa-twitter",
+      "content": "@duhamelguerrero",
+      "url": "https://twitter.com/duhamelguerrero",
+      "colorBase": "#1DA1F2",
+      "colorLight": "#37BBFF"
+    },
+    {
+      "name": "Gmail",
+      "icon": "far fa-envelope",
+      "content": "duhamelgm@gmail.com",
+      "url": "mailto:duhamelgm@gmail.com",
+      "colorBase": "#FF4F49",
+      "colorLight": "#FF6963"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "fab fa-linkedin-in",
+      "content": "duhamelgm",
+      "url": "https://www.linkedin.com/in/duhamelgm/",
+      "colorBase": "#0077b5",
+      "colorLight": "#1A91CF"
+    },
+    {
+      "name": "GitHub",
+      "icon": "fab fa-github",
+      "content": "duhamelguerrero",
+      "url": "https://github.com/duhamelguerrero",
+      "colorBase": "#6cc644",
+      "colorLight": "#86E05E"
+    },
+    {
+      "name": "GitLab",
+      "icon": "fab fa-gitlab",
+      "content": "duhamelgm",
+      "url": "https://gitlab.com/duhamelgm",
+      "colorBase": "#fc6d26",
+      "colorLight": "#FF8740"
+    }
+  ]
+}

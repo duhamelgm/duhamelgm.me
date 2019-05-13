@@ -1,0 +1,60 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .social-media {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    // grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+
+    li {
+      a {
+        position: relative;
+        display: flex;
+        align-items: stretch;
+        color: #000;
+        text-decoration: none;
+
+        height: 54px;
+
+        border-radius: 5px;
+
+        i {
+          position: absolute;
+          bottom: 0;
+          top: 0;
+          font-size: 1.5rem;
+          width: 54px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          border-radius: inherit;
+
+          transition: 0.2s;
+        }
+
+        p {
+          margin: 0;
+          margin-left: 54px;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          display: flex;
+          align-items: center;
+        }
+
+        &:hover {
+          i {
+            width: 100%;
+            transition: 0.2s;
+          }
+        }
+      }
+    }
+  }
+}
